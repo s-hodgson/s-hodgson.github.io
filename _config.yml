@@ -35,3 +35,8 @@ jektex:
   macros:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]
+
+oxhands:
+  output: true
+  source: oxhands/   # or wherever your docs live
+  permalink: /oxhands/:path/
