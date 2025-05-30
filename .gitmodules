@@ -1,3 +1,6 @@
 [submodule "oxhands-page"]
 	path = oxhands-page
 	url = https://github.com/s-hodgson/oxhands-page
+[submodule "oxhands"]
+	path = oxhands
+	url = https://github.com/s-hodgson/oxhands-page
