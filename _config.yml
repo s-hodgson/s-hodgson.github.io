@@ -1,6 +1,5 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
+title: Sam Hodgson # name of the site
+author: Sam Hodgson # name of site's author
 url: https://s-hodgson.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
@@ -18,7 +17,7 @@ theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
-  lowercase_titles: true # show titles in lowercase in lists
+  lowercase_titles: false # show titles in lowercase in lists
 
 sass:
   style: compressed
@@ -27,14 +26,16 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jektex
+  - jekyll-remote-theme
+  
 
-jektex:
-  cache_dir: ".jektex-cache"
-  ignore: ["*.xml"]
-  silent: false
-  macros:
-    - ["\\Q", "\\mathbb{Q}"]
-    - ["\\C", "\\mathbb{C}"]
+# jektex:
+#   cache_dir: ".jektex-cache"
+#   ignore: ["*.xml"]
+#   silent: false
+#   macros:
+#     - ["\\Q", "\\mathbb{Q}"]
+#     - ["\\C", "\\mathbb{C}"]
 
 oxhands:
   output: true
